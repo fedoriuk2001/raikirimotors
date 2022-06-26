@@ -1,0 +1,52 @@
+@mixin xs {
+  @media (max-width: #{$screen-xs-max}) {
+      @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+      @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$screen-md-max}) {
+      @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-max}) {
+      @content;
+  }
+}
+
+
+@mixin xsUp {
+  @media (min-width: #{$screen-xs-max + 1}) {
+      @content;
+  }
+}
+
+
+
+
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexCenterBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexStartBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

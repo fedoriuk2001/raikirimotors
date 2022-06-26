@@ -1,0 +1,30 @@
+{
+  "de": {
+    "about-us": "Über uns",
+    "hello-world": "Hallo Welt!",
+    "homepage": "Startseite",
+    "learn-more-about-us": "Erfahren Sie mehr über uns",
+    "welcome-on-our-website": "Willkommen auf unserer mehrsprachigen Website"
+  },
+  "ru": {
+    "about-us": "О нас",
+    "hello-world": "Привет, мир!",
+    "homepage": "Домашняя страница",
+    "learn-more-about-us": "Узнать больше о нас",
+    "welcome-on-our-website": "Добро пожаловать на наш многоязычный сайт"
+  },
+  "en": {
+    "about-us": "About Us",
+    "hello-world": "Hello World!",
+    "homepage": "Homepage",
+    "learn-more-about-us": "Learn more about us",
+    "welcome-on-our-website": "Welcome on our multi-language website"
+  },
+  "ua": {
+    "about-us": "Про нас",
+    "hello-world": "Привіт Світ!",
+    "homepage": "Домашня сторінка",
+    "learn-more-about-us": "Дізнайтеся більше про нас",
+    "welcome-on-our-website": "Вітаємо на нашому багатомовному веб-сайті"
+  }
+}

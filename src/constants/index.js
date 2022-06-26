@@ -1,0 +1,11 @@
+export const ABOUT_LINK = '/about/';
+export const CONTACT_LINK = '/contact/';
+export const IMPRESSUM_LINK = '/impressum/';
+export const NEWS_LINK = '/news/';
+export const PRIVACY_STATEMENT_LINK = '/privacy-statement/';
+export const PURCHASE_LINK = '/purchase/';
+export const RECENTLY_SOLD_LINK = '/recently-sold/';
+export const SERVICES_LINK = '/services/';
+export const SITEMAP_LINK = '/sitemap/';
+export const STOCK_LINK = '/stock/';
+export const TERMSANDCONDITIONS_LINK = '/termsandconditions/';

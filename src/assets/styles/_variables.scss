@@ -1,0 +1,17 @@
+// Small tablets and large smartphones (landscape view)
+$screen-xs-max: 575px;
+
+// Small tablets (portrait view)
+$screen-sm-max: 767px;
+
+// Tablets and small desktops
+$screen-md-max: 991px;
+
+// Large tablets and desktops
+// $screen-lg-max: 1199px;
+$screen-lg-max: 1169px;
+
+
+
+$z-index-header: 100;
+$z-index-app-loading-screen: 200;
