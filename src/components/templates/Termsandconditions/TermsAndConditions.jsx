@@ -1,10 +1,10 @@
 import React from "react";
 import { Layout } from "../../Layout/Layout";
 
-export const About = () => {
+export const TermsAndConditions = () => {
   return (
     <>
-      <Layout>Hello About</Layout>
+      <Layout>Hello Terms and Conditions</Layout>
     </>
   );
 };

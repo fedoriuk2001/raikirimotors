@@ -1,31 +1,9 @@
 import React from "react";
-import {FormattedMessage} from "react-intl";
-import LinkTranslated from "../utils/LinkTranslated";
-import SimpleLocalize from "../utils/SimpleLocalize";
 
-function ImpressumPage(props) {
-  // const language = props.pageContext.language;
-  return (
-    <SimpleLocalize {...props}>
-      <h1>
-        <FormattedMessage
-          id="about-us"
-          defaultMessage="About Us"
-        />
-      </h1>
+import { Impressum } from "../components/templates/Impressum";
 
-      <LinkTranslated
-        className="btn btn-link"
-        href="/"
-      >
-        <FormattedMessage
-          id="homepage"
-          defaultMessage="Homepage"
-        />
-      </LinkTranslated>
-
-    </SimpleLocalize>
-  );
+function ImpressumPage() {
+  return <Impressum />;
 }
 
 export default ImpressumPage;

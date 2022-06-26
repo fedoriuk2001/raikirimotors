@@ -1,10 +1,10 @@
 import React from "react";
 import { Layout } from "../../Layout/Layout";
 
-export const About = () => {
+export const News = () => {
   return (
     <>
-      <Layout>Hello About</Layout>
+      <Layout>Hello News</Layout>
     </>
   );
 };

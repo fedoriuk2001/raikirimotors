@@ -1,31 +1,8 @@
 import React from "react";
-import {FormattedMessage} from "react-intl";
-import LinkTranslated from "../utils/LinkTranslated";
-import SimpleLocalize from "../utils/SimpleLocalize";
+import { Sitemap } from "../components/templates/Sitemap";
 
-function SitemapPage(props) {
-  // const language = props.pageContext.language;
-  return (
-    <SimpleLocalize {...props}>
-      <h1>
-        <FormattedMessage
-          id="about-us"
-          defaultMessage="About Us"
-        />
-      </h1>
-
-      <LinkTranslated
-        className="btn btn-link"
-        href="/"
-      >
-        <FormattedMessage
-          id="homepage"
-          defaultMessage="Homepage"
-        />
-      </LinkTranslated>
-
-    </SimpleLocalize>
-  );
+function SitemapPage() {
+  return <Sitemap />;
 }
 
 export default SitemapPage;
