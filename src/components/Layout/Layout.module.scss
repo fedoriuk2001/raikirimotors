@@ -1,0 +1,93 @@
+.home {
+  .image-header {
+    height: 450px;
+    height: 500px;
+
+    .bottom-triangle {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 501px) {
+  .home {
+    .image-header {
+      .header-content {
+        padding-top: 8em;
+      }
+    }
+  }
+}
+
+@media (min-width: 641px) {
+  .home {
+    .image-header {
+      height: 550px;
+
+      .header-content {
+        padding-top: 5em;
+      }
+
+      .bottom-triangle {
+        bottom: 0;
+        display: block;
+        position: absolute;
+        width: 100%;
+
+        .triangle-side {
+          background: #fff;
+          float: left;
+          height: 35px;
+          width: calc(50% - 55px);
+        }
+
+        .triangle-wrapper {
+          cursor: pointer;
+          float: left;
+          position: relative;
+
+          .triangle-arrow {
+            height: 18px;
+            left: 0;
+            margin: 0 auto;
+            position: absolute;
+            right: 0;
+            top: -15px;
+            width: 55px;
+          }
+        }
+
+        .triangle {
+          height: 35px;
+          width: 110px;
+
+          polygon {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1251px) {
+  .home {
+    .image-header {
+      height: 680px;
+
+      .header-content {
+        padding-top: 13.5em;
+      }
+    }
+  }
+}
+
+.home .image-header .header-content h1 {
+  color: #fff;
+  margin-bottom: 1.2em;
+}
+@media (min-width: 981px) {
+  .home .introduction .content-left {
+    margin-top: 5em;
+  }
+}

@@ -11,7 +11,7 @@ export const Layout = (props) => {
   // const lang = 'en-us'
 
   return (
-    <div className="">
+    <div>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
